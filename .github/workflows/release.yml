@@ -13,8 +13,8 @@ jobs:
       BUNDLE_ID: com.shimondeitel.chaselog
       TEAM_ID: W7Q885Q59C
       SIGN_IDENTITY_SHA1: 28783A84B07D8DFC5FCF311F7B4D7FB46594C728
-      APP_ID: "6788339144"
-      IAP_ID: "6788340710"
+      APP_ID: ""
+      IAP_ID: ""
     steps:
       - uses: actions/checkout@v4
       - uses: maxim-lobanov/setup-xcode@v1
@@ -145,6 +145,7 @@ jobs:
         run: pip3 install --quiet --break-system-packages pyjwt cryptography
 
       - name: Upload app screenshot (APP_IPHONE_67) via ASC API
+        if: env.APP_ID != ''
         env:
           ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
           ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
