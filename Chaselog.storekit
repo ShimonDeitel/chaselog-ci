@@ -1,0 +1,42 @@
+{
+  "identifier" : "chaselog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_askToBuyEnabled" : false
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21500000",
+      "localizations" : [],
+      "name" : "Chaselog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "chaselog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlocks unlimited invoices, per-client balances, aging breakdown, overdue alerts, and milestone badges",
+              "displayName" : "Chaselog Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "chaselog_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Chaselog Pro Monthly",
+          "subscriptionGroupID" : "21500000",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8B9129409A65CCB2C5AF05 /* Chaselog.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F58DDD5F36DB0BDBEA42E856 /* Chaselog.storekit */; };
+		15E6987280440974F90BF00A /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616C6E424F5733EF88F05973 /* PurchaseManager.swift */; };
+		16FE169C07D9AC0F4FE2D783 /* InvoiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F044B720B2F61CFD8492B5B9 /* InvoiceListView.swift */; };
+		3672B71DAD6AEAD87221F7C9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362D66AB3AFFB6DDC504636 /* Store.swift */; };
+		49E6C49EA38C10525698B31B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B07E84585158B7E63929FF /* Models.swift */; };
+		6A5BF2EEC72597047CABD879 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013FDE51F8717FCCE7BDD06 /* Sheets.swift */; };
+		6F0508E75D819376A05470F2 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492396F35246B0A6D91B5132 /* PaywallView.swift */; };
+		962E91CDBC751E2971A0D10F /* ChaselogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEBEC3D053C80B76610B51 /* ChaselogUITests.swift */; };
+		A0B80DF4FEF1CADD3D503C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C289D953454BB099A8681 /* Assets.xcassets */; };
+		BD1E061740D9DB2AD3A2D932 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC00CAAD50C471E836FE368 /* RootTabView.swift */; };
+		D637A826926ABD4D5E748297 /* ChaselogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CBBA878C93D4A5666DAB7 /* ChaselogTests.swift */; };
+		EBDC3F250AE56D4DEF76E200 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72C24BDCFF6C2C8D288A0A /* App.swift */; };
+		FD12F1624E37EC9C0BCA6822 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC2523DC9A843588192452 /* Theme.swift */; };
+		FFBBC1E9D4E6A9FB8AD8E475 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333BCD4E7B4B8AA9CC667C4F /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8108908473F345F2483414AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CF675C17B16C90CF67C1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B593CB1B2C4DC42883C014C;
+			remoteInfo = Chaselog;
+		};
+		EA7585879632DE381225FD51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CF675C17B16C90CF67C1B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B593CB1B2C4DC42883C014C;
+			remoteInfo = Chaselog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC00CAAD50C471E836FE368 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		13D84A1E9A536E6F79234D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16AF6B79E838555BF780F766 /* Chaselog.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Chaselog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B07E84585158B7E63929FF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1EC99A8C07C194F646EEDDB0 /* ChaselogTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChaselogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333BCD4E7B4B8AA9CC667C4F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		492396F35246B0A6D91B5132 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		616C6E424F5733EF88F05973 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		9AFEBEC3D053C80B76610B51 /* ChaselogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaselogUITests.swift; sourceTree = "<group>"; };
+		A013FDE51F8717FCCE7BDD06 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		A1FC2523DC9A843588192452 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CE121E2979566D5B1FD4E660 /* ChaselogUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ChaselogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F044B720B2F61CFD8492B5B9 /* InvoiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceListView.swift; sourceTree = "<group>"; };
+		F362D66AB3AFFB6DDC504636 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		F58DDD5F36DB0BDBEA42E856 /* Chaselog.storekit */ = {isa = PBXFileReference; path = Chaselog.storekit; sourceTree = "<group>"; };
+		FA1CBBA878C93D4A5666DAB7 /* ChaselogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaselogTests.swift; sourceTree = "<group>"; };
+		FB72C24BDCFF6C2C8D288A0A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		FD9C289D953454BB099A8681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01B44F61482BBFA950023EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16AF6B79E838555BF780F766 /* Chaselog.app */,
+				1EC99A8C07C194F646EEDDB0 /* ChaselogTests.xctest */,
+				CE121E2979566D5B1FD4E660 /* ChaselogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083D87C9735E6069E7BDAF19 /* Chaselog */ = {
+			isa = PBXGroup;
+			children = (
+				FB72C24BDCFF6C2C8D288A0A /* App.swift */,
+				FD9C289D953454BB099A8681 /* Assets.xcassets */,
+				13D84A1E9A536E6F79234D7A /* Info.plist */,
+				F044B720B2F61CFD8492B5B9 /* InvoiceListView.swift */,
+				19B07E84585158B7E63929FF /* Models.swift */,
+				492396F35246B0A6D91B5132 /* PaywallView.swift */,
+				616C6E424F5733EF88F05973 /* PurchaseManager.swift */,
+				0DC00CAAD50C471E836FE368 /* RootTabView.swift */,
+				333BCD4E7B4B8AA9CC667C4F /* SettingsView.swift */,
+				A013FDE51F8717FCCE7BDD06 /* Sheets.swift */,
+				F362D66AB3AFFB6DDC504636 /* Store.swift */,
+				A1FC2523DC9A843588192452 /* Theme.swift */,
+			);
+			path = Chaselog;
+			sourceTree = "<group>";
+		};
+		139206A816E82482A6A2468B = {
+			isa = PBXGroup;
+			children = (
+				083D87C9735E6069E7BDAF19 /* Chaselog */,
+				6BB683234612EF57F0573364 /* ChaselogTests */,
+				F56927B9527D8D42FF4C644E /* ChaselogUITests */,
+				F58DDD5F36DB0BDBEA42E856 /* Chaselog.storekit */,
+				01B44F61482BBFA950023EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB683234612EF57F0573364 /* ChaselogTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CBBA878C93D4A5666DAB7 /* ChaselogTests.swift */,
+			);
+			path = ChaselogTests;
+			sourceTree = "<group>";
+		};
+		F56927B9527D8D42FF4C644E /* ChaselogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEBEC3D053C80B76610B51 /* ChaselogUITests.swift */,
+			);
+			path = ChaselogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B593CB1B2C4DC42883C014C /* Chaselog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4079863AB4B119D062A28D89 /* Build configuration list for PBXNativeTarget "Chaselog" */;
+			buildPhases = (
+				E76BC6DBF5B5B684AB6135E5 /* Sources */,
+				2F6FA605CEB4078D94D1D92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chaselog;
+			packageProductDependencies = (
+			);
+			productName = Chaselog;
+			productReference = 16AF6B79E838555BF780F766 /* Chaselog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5509DB6D061A1C79A9C830F /* ChaselogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5A5B630D049E9E8DEBCF39 /* Build configuration list for PBXNativeTarget "ChaselogUITests" */;
+			buildPhases = (
+				9EABD009761C68DE914FE195 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122E7EB4E8FA65C27C197A93 /* PBXTargetDependency */,
+			);
+			name = ChaselogUITests;
+			packageProductDependencies = (
+			);
+			productName = ChaselogUITests;
+			productReference = CE121E2979566D5B1FD4E660 /* ChaselogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DBFC8853F84BCB83E0333EE8 /* ChaselogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781881CD732E411692FC37D1 /* Build configuration list for PBXNativeTarget "ChaselogTests" */;
+			buildPhases = (
+				B407D0ACDA6B2CE5A5884057 /* Sources */,
+				887C1BA0FCA93DFA9EF93FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C77AEE750A5FE440942846 /* PBXTargetDependency */,
+			);
+			name = ChaselogTests;
+			packageProductDependencies = (
+			);
+			productName = ChaselogTests;
+			productReference = 1EC99A8C07C194F646EEDDB0 /* ChaselogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CF675C17B16C90CF67C1B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7B593CB1B2C4DC42883C014C = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					D5509DB6D061A1C79A9C830F = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B593CB1B2C4DC42883C014C;
+					};
+					DBFC8853F84BCB83E0333EE8 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6ABAD7BF5E1FB75FB23A2515 /* Build configuration list for PBXProject "Chaselog" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 139206A816E82482A6A2468B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 01B44F61482BBFA950023EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B593CB1B2C4DC42883C014C /* Chaselog */,
+				DBFC8853F84BCB83E0333EE8 /* ChaselogTests */,
+				D5509DB6D061A1C79A9C830F /* ChaselogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F6FA605CEB4078D94D1D92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B80DF4FEF1CADD3D503C05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887C1BA0FCA93DFA9EF93FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8B9129409A65CCB2C5AF05 /* Chaselog.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EABD009761C68DE914FE195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962E91CDBC751E2971A0D10F /* ChaselogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B407D0ACDA6B2CE5A5884057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D637A826926ABD4D5E748297 /* ChaselogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76BC6DBF5B5B684AB6135E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDC3F250AE56D4DEF76E200 /* App.swift in Sources */,
+				16FE169C07D9AC0F4FE2D783 /* InvoiceListView.swift in Sources */,
+				49E6C49EA38C10525698B31B /* Models.swift in Sources */,
+				6F0508E75D819376A05470F2 /* PaywallView.swift in Sources */,
+				15E6987280440974F90BF00A /* PurchaseManager.swift in Sources */,
+				BD1E061740D9DB2AD3A2D932 /* RootTabView.swift in Sources */,
+				FFBBC1E9D4E6A9FB8AD8E475 /* SettingsView.swift in Sources */,
+				6A5BF2EEC72597047CABD879 /* Sheets.swift in Sources */,
+				3672B71DAD6AEAD87221F7C9 /* Store.swift in Sources */,
+				FD12F1624E37EC9C0BCA6822 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		122E7EB4E8FA65C27C197A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B593CB1B2C4DC42883C014C /* Chaselog */;
+			targetProxy = 8108908473F345F2483414AF /* PBXContainerItemProxy */;
+		};
+		C3C77AEE750A5FE440942846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B593CB1B2C4DC42883C014C /* Chaselog */;
+			targetProxy = EA7585879632DE381225FD51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19FEE4BA9010F2DCE792F9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Chaselog;
+			};
+			name = Release;
+		};
+		44F59D783D080B2D8E892591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5AE7E178CB16C9E3218C645F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chaselog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E2C9FE5CFBB430F4D3CC619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		839034B339B56096DDC25889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Chaselog;
+			};
+			name = Debug;
+		};
+		ADC2EF29E0A5493318384822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chaselog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DD4DACA0DA7CB067AB8E34EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaselog.app/Chaselog";
+			};
+			name = Release;
+		};
+		E89B063D3D5F8F1BB9D2BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.chaselog.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaselog.app/Chaselog";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4079863AB4B119D062A28D89 /* Build configuration list for PBXNativeTarget "Chaselog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE7E178CB16C9E3218C645F /* Debug */,
+				ADC2EF29E0A5493318384822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6ABAD7BF5E1FB75FB23A2515 /* Build configuration list for PBXProject "Chaselog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F59D783D080B2D8E892591 /* Debug */,
+				6E2C9FE5CFBB430F4D3CC619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		781881CD732E411692FC37D1 /* Build configuration list for PBXNativeTarget "ChaselogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B063D3D5F8F1BB9D2BC07 /* Debug */,
+				DD4DACA0DA7CB067AB8E34EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF5A5B630D049E9E8DEBCF39 /* Build configuration list for PBXNativeTarget "ChaselogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839034B339B56096DDC25889 /* Debug */,
+				19FEE4BA9010F2DCE792F9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CF675C17B16C90CF67C1B2 /* Project object */;
+}
